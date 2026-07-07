@@ -1,0 +1,104 @@
+.app-root {
+    -fx-background-color: #e5e7eb;
+    -fx-padding: 14;
+    -fx-font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+.title {
+    -fx-font-size: 22px;
+    -fx-font-weight: 800;
+    -fx-text-fill: #111827;
+    -fx-padding: 0 0 12 0;
+}
+
+.game-panel,
+.panel {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cbd5e1;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+}
+
+.main-tabs {
+    -fx-background-color: transparent;
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-background-color: transparent;
+}
+
+.tab {
+    -fx-background-radius: 7 7 0 0;
+    -fx-padding: 5 14;
+}
+
+.tab:selected {
+    -fx-background-color: #ffffff;
+}
+
+.section-title {
+    -fx-font-size: 16px;
+    -fx-font-weight: 800;
+    -fx-text-fill: #111827;
+}
+
+.floating-label {
+    -fx-background-color: rgba(15, 23, 42, 0.78);
+    -fx-background-radius: 6;
+    -fx-padding: 5 8;
+    -fx-text-fill: #f8fafc;
+    -fx-font-size: 12px;
+    -fx-font-weight: 700;
+}
+
+.hud {
+    -fx-background-color: #f8fafc;
+    -fx-border-color: #e2e8f0 transparent transparent transparent;
+}
+
+.scoreboard {
+    -fx-alignment: center;
+}
+
+.score {
+    -fx-font-size: 30px;
+    -fx-font-weight: 800;
+    -fx-min-width: 58px;
+    -fx-alignment: center;
+}
+
+.player-left {
+    -fx-text-fill: #2563eb;
+    -fx-font-weight: 800;
+}
+
+.player-right {
+    -fx-text-fill: #e11d48;
+    -fx-font-weight: 800;
+}
+
+.physics-grid {
+    -fx-padding: 8 0 0 0;
+}
+
+.button {
+    -fx-background-color: #111827;
+    -fx-text-fill: white;
+    -fx-font-weight: 700;
+    -fx-background-radius: 7;
+    -fx-padding: 8 12;
+}
+
+.button:hover {
+    -fx-background-color: #374151;
+}
+
+.hint {
+    -fx-text-fill: #475569;
+    -fx-font-size: 12px;
+}
+
+.side-panel {
+    -fx-min-width: 370;
+    -fx-max-width: 370;
+}
